@@ -13,7 +13,7 @@ int main(int argc, char *argv[]) {
 			printf("\n%d",i);
 		}
 		
-		promedio=suma/6;
+		promedio=suma/5;
 	} while(i<=10);
 	
 	printf("\nsuma total=%d",suma);

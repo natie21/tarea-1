@@ -38,8 +38,8 @@ int main(int argc, char *argv[]) {
 			printf("ingresa la cantidad que desees abonar\n");
 			scanf("%d",&abono);
 			if(abono>0){
-				saldoab=saldoin+abono;	
-				printf("muy bien,ahora tu saldo es de =%d",saldoab);	
+				saldoin=saldoin+abono;	
+				printf("muy bien,ahora tu saldo es de =%d",saldoin);	
 			}
 			
 			break;
