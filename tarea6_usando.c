@@ -1,9 +1,12 @@
 #include <stdio.h>
 
 void promedio(int n1,int n2,char nombre[15]){
-int prom;
-prom=n1*n2/n2;
-printf("el promedio obtenido es=%d",prom);
+	
+int suma;
+suma=n1+n2;
+float prom;
+prom= suma/2.0;
+printf("el promedio obtenido es=%.2f",prom);
 printf("\ntus datos ingresados fueron:\n");
 printf("%d\n",n1);
 printf("%d\n",n2);
